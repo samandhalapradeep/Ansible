@@ -1,5 +1,5 @@
 - name: ping playbook
-  hosts: 54.242.232.11
+  hosts: web
   tasks:
   - name: ping the server
     ansible.builtin.ping:
