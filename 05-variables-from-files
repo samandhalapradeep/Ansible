@@ -1,7 +1,7 @@
 # PLAY level variables
 - name: variables from PLAY level
   hosts: localhost
-  vars:
+  vars_files:
   - variables.aml
   tasks:
   - name: check variables
