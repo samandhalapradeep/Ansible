@@ -1,0 +1,9 @@
+# PLAY level variables
+- name: variables from PLAY level
+  hosts: localhost
+  vars:
+  - variables.aml
+  tasks:
+  - name: check variables
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
