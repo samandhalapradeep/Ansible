@@ -2,7 +2,7 @@
 - name: variables from PLAY level
   hosts: localhost
   vars_files:
-  - 04-variables.yaml
+  - variables.yaml
   tasks:
   - name: check variables
     ansible.builtin.debug:
